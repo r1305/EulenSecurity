@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Eulen Security</string>
+    <string name="margins">16dp</string>
+    <string name="pick_color">Colors</string>
+    <array name="colors_array">
+        <item>Azul</item>
+        <item>Rojo</item>
+        <item>Negro</item>
+        <item>Amarillo</item>
+    </array>
+</resources>

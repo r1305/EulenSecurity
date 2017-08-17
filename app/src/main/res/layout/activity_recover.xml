@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@android:dimen/app_icon_size"
+    tools:context="com.security.eulen.eulensecurity.RecoverActivity">
+
+    <TextView
+        android:id="@+id/tv_recover"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="asdfasfasfsafasf"
+        android:inputType="textCapSentences"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/et_recover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv_recover"
+        android:textAlignment="center"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_recover_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/et_recover"
+        android:text="Enviar"/>
+
+</RelativeLayout>
